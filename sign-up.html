@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sign Up Travel - X </title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            color: white;
+            font-weight: bolder;
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            height: 80vh;
+            background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), 
+               url('./Project-beach.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+        }
+
+        .sign-up_button:hover{
+            background: transparent;
+            border: 4px solid black;
+        }
+    </style>
+</head>
+<body>
+    <fieldset style = "border-radius: 10px; height: 90%; width: 35%;">
+        <div class = "signup-container"> 
+        <h2> Sign-Up For Travel - X </h2>
+        <form>
+            <label for = "username"> Username: </label> <br>
+            <input type = "text" id = "username" name = "username"
+                style = "border-radius: 10px; width: 250px; height: 25px;" required>
+            <br> <br>
+
+            <label for = "email_address"> Email Address: </label> <br>
+            <input type = "text" id = "email_address" name = "email_address" 
+                style = "border-radius: 10px; width: 250px; height: 25px;" required>
+            <br> <br>
+
+            <label for = "pwd"> Password: </label> <br>
+            <input type = "text" id = "pwd" name = "password" 
+                style = "border-radius: 10px; width: 250px; height: 25px;" required>
+            <br> <br>
+            
+            <label for = "pwd"> Confirm Password: </label> <br>
+            <input type = "text" id = "pwd" name = "password" 
+                style = "border-radius: 10px; width: 250px; height: 25px;" required>
+            <br> <br>
+
+            <button class = "sign-up_button" type = "Sign Up" name = "Sign-Up"
+                style = "border-radius: 10px; width: 150px; height: 40px; font-size: 20px;
+                font-weight: bolder;" > Sign Up </button>
+        </form>
+        <p> If you have registered an account? 
+            <a class = "move_in-login" href = "./login.html"> Login </a> </p>
+    </div>
+
+    </fieldset>
+
+</body>
+</html>
